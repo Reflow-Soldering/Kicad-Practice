@@ -130,6 +130,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 190.5 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c7ed5d2-92f7-4232-b5f5-60b553f91fe0")
+	)
 	(wire
 		(pts
 			(xy 121.92 66.04) (xy 121.92 67.31)
@@ -222,6 +228,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 104.14) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bc4105-c980-4487-a529-0640a0d980f3")
+	)
+	(wire
+		(pts
 			(xy 176.53 46.99) (xy 190.5 46.99)
 		)
 		(stroke
@@ -229,6 +245,16 @@
 			(type default)
 		)
 		(uuid "b388eff1-9859-4307-a424-1f8736a8a911")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b602a888-d5d3-4cd3-84a9-4383e43e550d")
 	)
 	(wire
 		(pts
@@ -242,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 144.78 73.66)
+			(xy 144.78 73.66) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -796,16 +822,68 @@
 			)
 		)
 		(pin "1"
-			(uuid "c430f93d-3bc0-4f47-9c98-c5338156d4a4")
+			(uuid "c430f93d-3bc0-4f47-9c98-c5338156d4a5")
 		)
 		(pin "2"
-			(uuid "b03bb940-5125-4a89-b0cf-0a44531f2e19")
+			(uuid "b03bb940-5125-4a89-b0cf-0a44531f2e1a")
 		)
 		(instances
 			(project ""
 				(path "/105f2309-8062-4052-83a1-4f56df5cd5b0"
 					(reference "R4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 93.98)
+		(size 93.98 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78bd4cda-1c13-4695-8969-57f2e065e075")
+		(property "Sheetname" "Sheet_2"
+			(at 53.34 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheet_2.kicad_sch"
+			(at 53.34 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "H_1_Label" output
+			(at 147.32 104.14 0)
+			(uuid "349bf83b-4b3f-4db9-a575-5674c60f8e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project Net Class"
+				(path "/105f2309-8062-4052-83a1-4f56df5cd5b0"
+					(page "2")
 				)
 			)
 		)
